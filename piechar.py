@@ -13,6 +13,7 @@ countries = df['location'].unique()
 
 # Dash uygulamasını oluştur
 app = dash.Dash(__name__)
+server = app.server
 
 # Uygulama düzeni
 app.layout = html.Div([
