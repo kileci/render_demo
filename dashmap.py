@@ -10,6 +10,7 @@ df = pd.read_csv(url)
 
 # Dash uygulamasını oluştur
 app = dash.Dash(__name__)
+server = app.server
 
 # Uygulama düzeni
 app.layout = html.Div([
